@@ -13,12 +13,10 @@ spring:
               - OPTIONS
               - HEAD
       routes:
-        -
-          id: reportingModule
-          uri: lb://ReportingService
+        - id: ReportingService
+          uri: /ReportingService
           predicates: 
-            -
-              Path=/report/**
+            - Path=/report/**
 
 ribbon:
   ConnectTimeout: 3000
