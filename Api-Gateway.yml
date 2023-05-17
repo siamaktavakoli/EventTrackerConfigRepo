@@ -13,8 +13,8 @@ spring:
               - OPTIONS
               - HEAD
       routes:
-        - id: ReportingService
-          uri: /ReportingService
+        - id: reportingModule
+          uri: lb://ReportingService
           predicates: 
             - Path=/report/**
 
