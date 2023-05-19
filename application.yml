@@ -55,9 +55,9 @@ resilience:
         duration-in-open-state: 30
 
 
-logstash:
-  host: localhost
-  port: 5000
+#logstash:
+#  host: localhost
+#  port: 5000
 
 kafka:
   topics:
