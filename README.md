@@ -1,2 +1,2 @@
-# cs590-project-config-server
-This is just to store the config files for CS90 final project
+# EventTracker-config-server
+Config files for EventTracker services.
