@@ -1,16 +1,16 @@
 css:
   cds:
-    src: https://github.com/rbari/sa-cds/archive/refs/heads/main.zip
-    projectName: sa-cds-main #reponame-branchname
+    src: https://github.com/siamaktavakoli/EventTracker_ChangeDetectionService/archive/refs/heads/main.zip
+    projectName: EventTracker_ChangeDetectionService-main #reponame-branchname
   ss:
-    src: https://github.com/rbari/SharedSS/archive/refs/heads/main.zip
-    projectName: SharedSS-main
+    src: https://github.com/siamaktavakoli/EventTracker_ScoringService/archive/refs/heads/main.zip
+    projectName: EventTracker_ScoringService-main
   rs:
-    src: https://github.com/rbari/rs-service/archive/refs/heads/main.zip
-    projectName: rs-service-main
+    src: https://github.com/siamaktavakoli/EventTracker_ReportingService/archive/refs/heads/main.zip
+    projectName: EventTracker_ReportingService-main
   dis:
-    src: https://github.com/rbari/data-input-service/archive/refs/heads/main.zip
-    projectName: data-input-service-main
+    src: https://github.com/siamaktavakoli/EventTracker_DataInputService/archive/refs/heads/main.zip
+    projectName: EventTracker_DataInputService-main
     
 #cssTempDir: ${HOME}/csstempdir
 cssTempDir: csstempdir
